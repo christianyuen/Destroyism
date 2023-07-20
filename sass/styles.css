@@ -230,11 +230,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .eyes {
   width: 300px;
   cursor: pointer;
   transition: all ease-in-out 3s;
+}
+
+.music-player-full-page {
+  visibility: hidden;
 }/*# sourceMappingURL=styles.css.map */

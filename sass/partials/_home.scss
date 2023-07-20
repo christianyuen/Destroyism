@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100dvh;
 }
 
 .eyes {
@@ -19,3 +19,7 @@ body {
 // .eyes:hover {
 //     opacity: 0;
 // }
+
+.music-player-full-page {
+    visibility: hidden;
+}

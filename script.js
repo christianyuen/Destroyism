@@ -63,9 +63,14 @@ function loadTrack(track_index) {
     seek_slider.value = 0;
     }
 
+    // function playpauseTrack() {
+    //     // Switch between playing and pausing
+    //     // depending on the current state
+    //     if (!isPlaying) playTrack();
+    //     else pauseTrack();
+    //     }
+
     function playpauseTrack() {
-        // Switch between playing and pausing
-        // depending on the current state
         playTrack();
         }
         
