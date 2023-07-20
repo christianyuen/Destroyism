@@ -16,9 +16,10 @@ body {
     transition: all ease-in-out 3s;
 }
 
-// .eyes:hover {
-//     opacity: 0;
-// }
+.eyes:hover,
+&:active {
+    opacity: 0;
+}
 
 .music-player-full-page {
     visibility: hidden;
