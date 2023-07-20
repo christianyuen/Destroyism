@@ -236,10 +236,11 @@ body {
 .eyes {
   width: 300px;
   cursor: pointer;
-  transition: all ease-in-out 3s;
+  transition: all ease-in-out 6s;
 }
 
-.eyes:hover {
+.eyes:hover,
+.eyes:active {
   opacity: 0;
 }
 
