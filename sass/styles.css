@@ -235,8 +235,7 @@ html {
   transition: all ease-in-out 0.9s;
 }
 
-.eyes:hover,
-.eyes:active {
+.eyes:hover {
   opacity: 0;
 }
 
