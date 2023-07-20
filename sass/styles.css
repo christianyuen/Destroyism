@@ -232,13 +232,9 @@ html {
 .eyes {
   width: 300px;
   cursor: pointer;
-  transition: all ease-in-out 0.9s;
+  transition: all ease-in-out 3s;
 }
 
 .eyes:hover {
   opacity: 0;
-}
-
-.music-player {
-  display: none;
 }/*# sourceMappingURL=styles.css.map */
