@@ -227,7 +227,9 @@ body {
 
 .wrapper {
   margin: 0 auto;
+  padding: 0 50px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100dvh;
@@ -246,4 +248,24 @@ body {
 
 .music-player-full-page {
   visibility: hidden;
+}
+
+footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 93vw;
+}
+
+.email {
+  width: 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 0.9rem;
 }/*# sourceMappingURL=styles.css.map */
