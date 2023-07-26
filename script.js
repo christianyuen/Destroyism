@@ -27,7 +27,7 @@ let curr_track = document.createElement('audio');
 // Define the list of tracks that have to be played
 let track_list = [
 {
-	path: "./music/DEMOLITION22_FINAL.mp3"
+	path: "./music/160 murd.mp3"
 }];
 
 function loadTrack(track_index) {
